@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FB7250E7FEB52576E98CB1B /* Pods_TheBakingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1367495763F4D39CE64B95 /* Pods_TheBakingApp.framework */; };
 		C8819EA820189431008E6235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8819EA720189431008E6235 /* AppDelegate.swift */; };
-		C8819EAA20189431008E6235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8819EA920189431008E6235 /* ViewController.swift */; };
+		C8819EAA20189431008E6235 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8819EA920189431008E6235 /* BaseUIViewController.swift */; };
 		C8819EAD20189431008E6235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8819EAB20189431008E6235 /* Main.storyboard */; };
 		C8819EAF20189431008E6235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8819EAE20189431008E6235 /* Assets.xcassets */; };
 		C8819EB220189431008E6235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8819EB020189431008E6235 /* LaunchScreen.storyboard */; };
+		C8B322B020194A5F000652E6 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = C8B322AF20194A5F000652E6 /* Podfile */; };
+		C8B322B42019EBEE000652E6 /* BaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B322B32019EBEE000652E6 /* BaseContract.swift */; };
+		C8B322B62019EE8B000652E6 /* BaseUIViewController+BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B322B52019EE8B000652E6 /* BaseUIViewController+BaseView.swift */; };
+		C8B322BB201A0EC6000652E6 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B322BA201A0EC6000652E6 /* RecipeListViewController.swift */; };
+		C8B322BD201A19A1000652E6 /* RecipeListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B322BC201A19A1000652E6 /* RecipeListPresenter.swift */; };
+		C8B322C4201A3D02000652E6 /* RecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B322C3201A3D02000652E6 /* RecipeResponse.swift */; };
+		C8B322CA201AA193000652E6 /* ApiEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B322C9201AA193000652E6 /* ApiEndPoints.swift */; };
+		C8B322CC201AC4FE000652E6 /* ApiCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B322CB201AC4FE000652E6 /* ApiCalls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D1367495763F4D39CE64B95 /* Pods_TheBakingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheBakingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45CCA5550873CF7A34D09A5 /* Pods-TheBakingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBakingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheBakingApp/Pods-TheBakingApp.release.xcconfig"; sourceTree = "<group>"; };
 		C8819EA420189431008E6235 /* TheBakingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBakingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8819EA720189431008E6235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8819EA920189431008E6235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8819EA920189431008E6235 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseUIViewController.swift; path = TheBakingApp/BaseUIViewController.swift; sourceTree = SOURCE_ROOT; };
 		C8819EAC20189431008E6235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8819EAE20189431008E6235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8819EB120189431008E6235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8819EB320189431008E6235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B322AF20194A5F000652E6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8B322B32019EBEE000652E6 /* BaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseContract.swift; sourceTree = "<group>"; };
+		C8B322B52019EE8B000652E6 /* BaseUIViewController+BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseUIViewController+BaseView.swift"; sourceTree = "<group>"; };
+		C8B322BA201A0EC6000652E6 /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		C8B322BC201A19A1000652E6 /* RecipeListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListPresenter.swift; sourceTree = "<group>"; };
+		C8B322C3201A3D02000652E6 /* RecipeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResponse.swift; sourceTree = "<group>"; };
+		C8B322C9201AA193000652E6 /* ApiEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoints.swift; sourceTree = "<group>"; };
+		C8B322CB201AC4FE000652E6 /* ApiCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCalls.swift; sourceTree = "<group>"; };
+		F24F59EEA03E3A3C3249DFC5 /* Pods-TheBakingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBakingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheBakingApp/Pods-TheBakingApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB7250E7FEB52576E98CB1B /* Pods_TheBakingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24BA01B7562D4A9ED53163DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D1367495763F4D39CE64B95 /* Pods_TheBakingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C8819E9B20189431008E6235 = {
 			isa = PBXGroup;
 			children = (
+				C8B322AF20194A5F000652E6 /* Podfile */,
 				C8819EA620189431008E6235 /* TheBakingApp */,
 				C8819EA520189431008E6235 /* Products */,
+				EA28003D11A9B7D5E6301BE4 /* Pods */,
+				24BA01B7562D4A9ED53163DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,62 @@
 		C8819EA620189431008E6235 /* TheBakingApp */ = {
 			isa = PBXGroup;
 			children = (
+				C8B322C6201AA0B7000652E6 /* Data */,
+				C8B322C2201A3CF3000652E6 /* Model */,
+				C8B322B22019E89B000652E6 /* Base */,
+				C8B322B120195773000652E6 /* RecipeList */,
 				C8819EA720189431008E6235 /* AppDelegate.swift */,
-				C8819EA920189431008E6235 /* ViewController.swift */,
 				C8819EAB20189431008E6235 /* Main.storyboard */,
 				C8819EAE20189431008E6235 /* Assets.xcassets */,
 				C8819EB020189431008E6235 /* LaunchScreen.storyboard */,
 				C8819EB320189431008E6235 /* Info.plist */,
 			);
 			path = TheBakingApp;
+			sourceTree = "<group>";
+		};
+		C8B322B120195773000652E6 /* RecipeList */ = {
+			isa = PBXGroup;
+			children = (
+				C8B322BA201A0EC6000652E6 /* RecipeListViewController.swift */,
+				C8B322BC201A19A1000652E6 /* RecipeListPresenter.swift */,
+			);
+			path = RecipeList;
+			sourceTree = "<group>";
+		};
+		C8B322B22019E89B000652E6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C8819EA920189431008E6235 /* BaseUIViewController.swift */,
+				C8B322B32019EBEE000652E6 /* BaseContract.swift */,
+				C8B322B52019EE8B000652E6 /* BaseUIViewController+BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C8B322C2201A3CF3000652E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8B322C3201A3D02000652E6 /* RecipeResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8B322C6201AA0B7000652E6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C8B322CB201AC4FE000652E6 /* ApiCalls.swift */,
+				C8B322C9201AA193000652E6 /* ApiEndPoints.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EA28003D11A9B7D5E6301BE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F24F59EEA03E3A3C3249DFC5 /* Pods-TheBakingApp.debug.xcconfig */,
+				B45CCA5550873CF7A34D09A5 /* Pods-TheBakingApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8819EB620189431008E6235 /* Build configuration list for PBXNativeTarget "TheBakingApp" */;
 			buildPhases = (
+				BEF9610DCF93CE678A12DC19 /* [CP] Check Pods Manifest.lock */,
 				C8819EA020189431008E6235 /* Sources */,
 				C8819EA120189431008E6235 /* Frameworks */,
 				C8819EA220189431008E6235 /* Resources */,
+				838B794EF60EF5DA0F09AF83 /* [CP] Embed Pods Frameworks */,
+				1C53CE0A3067BABFA727AE2B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +214,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C53CE0A3067BABFA727AE2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheBakingApp/Pods-TheBakingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838B794EF60EF5DA0F09AF83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TheBakingApp/Pods-TheBakingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheBakingApp/Pods-TheBakingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF9610DCF93CE678A12DC19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheBakingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8819EA020189431008E6235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8819EAA20189431008E6235 /* ViewController.swift in Sources */,
+				C8B322BD201A19A1000652E6 /* RecipeListPresenter.swift in Sources */,
+				C8819EAA20189431008E6235 /* BaseUIViewController.swift in Sources */,
+				C8B322CC201AC4FE000652E6 /* ApiCalls.swift in Sources */,
+				C8B322B42019EBEE000652E6 /* BaseContract.swift in Sources */,
+				C8B322B62019EE8B000652E6 /* BaseUIViewController+BaseView.swift in Sources */,
 				C8819EA820189431008E6235 /* AppDelegate.swift in Sources */,
+				C8B322BB201A0EC6000652E6 /* RecipeListViewController.swift in Sources */,
+				C8B322B020194A5F000652E6 /* Podfile in Sources */,
+				C8B322C4201A3D02000652E6 /* RecipeResponse.swift in Sources */,
+				C8B322CA201AA193000652E6 /* ApiEndPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +421,7 @@
 		};
 		C8819EB720189431008E6235 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24F59EEA03E3A3C3249DFC5 /* Pods-TheBakingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +437,7 @@
 		};
 		C8819EB820189431008E6235 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45CCA5550873CF7A34D09A5 /* Pods-TheBakingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
