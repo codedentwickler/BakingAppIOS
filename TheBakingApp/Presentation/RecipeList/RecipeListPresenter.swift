@@ -27,6 +27,12 @@ class RecipeListPresenter: BasePresenter {
     
     func loadRecipes() {
         
+        if LocalStorage.shared.contains(key: PersistenceIdentifiers.RECIPE_RESPONSE) {
+            let recipes = LocalStorage.shared.getObject(key: PersistenceIdentifiers.RECIPE_RESPONSE) as! [Recipe]
+            self.view?.showRecipes(recipes)
+
+            return
+        }
         self.view?.showLoading(withMessage: "Loading Recipes...")
         ApiCalls.getRecipes { (response, error) in
             self.view?.dismissLoading()
@@ -36,6 +42,7 @@ class RecipeListPresenter: BasePresenter {
             }
             if let response = response {
                 
+                LocalStorage.shared.persistObject(object: response as NSObject, key: PersistenceIdentifiers.RECIPE_RESPONSE)
                 self.view?.showRecipes(response)
             }
         }

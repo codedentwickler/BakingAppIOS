@@ -21,9 +21,7 @@ struct ApiCalls {
                 switch response.result {
                     case .success:
                         if let data = response.result.value {
-                            print(data)
-                            print("Request: \(response.request)")
-                            print("HTTP Response: \(response.response)")
+                 
                             completion(data, nil)
                     }
                     

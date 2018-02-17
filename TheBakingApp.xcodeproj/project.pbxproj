@@ -8,10 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3FB7250E7FEB52576E98CB1B /* Pods_TheBakingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1367495763F4D39CE64B95 /* Pods_TheBakingApp.framework */; };
+		C81271322032EEA90012810F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81271312032EEA90012810F /* Constants.swift */; };
+		C81271342032EFD50012810F /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81271332032EFD40012810F /* LocalStorage.swift */; };
+		C81271362032F52A0012810F /* StepListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81271352032F52A0012810F /* StepListViewController.swift */; };
+		C81271382032FA300012810F /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81271372032FA300012810F /* Asset.xcassets */; };
+		C812713B2032FF0B0012810F /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812713A2032FF0B0012810F /* StringHelper.swift */; };
+		C812713D203303370012810F /* StepListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812713C203303370012810F /* StepListPresenter.swift */; };
+		C812714020330DD40012810F /* RecipeStepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812713F20330DD40012810F /* RecipeStepTableViewCell.swift */; };
+		C812714220331E1C0012810F /* UiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812714120331E1B0012810F /* UiView.swift */; };
+		C812714520333A320012810F /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812714420333A320012810F /* VideoPlayerViewController.swift */; };
+		C812714720333B410012810F /* RecipeStepsViewPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812714620333B410012810F /* RecipeStepsViewPagerController.swift */; };
 		C8819EA820189431008E6235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8819EA720189431008E6235 /* AppDelegate.swift */; };
 		C8819EAA20189431008E6235 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8819EA920189431008E6235 /* BaseUIViewController.swift */; };
 		C8819EAD20189431008E6235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8819EAB20189431008E6235 /* Main.storyboard */; };
-		C8819EAF20189431008E6235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8819EAE20189431008E6235 /* Assets.xcassets */; };
 		C8819EB220189431008E6235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8819EB020189431008E6235 /* LaunchScreen.storyboard */; };
 		C8B322B020194A5F000652E6 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = C8B322AF20194A5F000652E6 /* Podfile */; };
 		C8B322B42019EBEE000652E6 /* BaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B322B32019EBEE000652E6 /* BaseContract.swift */; };
@@ -26,11 +35,20 @@
 /* Begin PBXFileReference section */
 		8D1367495763F4D39CE64B95 /* Pods_TheBakingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheBakingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45CCA5550873CF7A34D09A5 /* Pods-TheBakingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBakingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheBakingApp/Pods-TheBakingApp.release.xcconfig"; sourceTree = "<group>"; };
+		C81271312032EEA90012810F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C81271332032EFD40012810F /* LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		C81271352032F52A0012810F /* StepListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepListViewController.swift; sourceTree = "<group>"; };
+		C81271372032FA300012810F /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		C812713A2032FF0B0012810F /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		C812713C203303370012810F /* StepListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepListPresenter.swift; sourceTree = "<group>"; };
+		C812713F20330DD40012810F /* RecipeStepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStepTableViewCell.swift; sourceTree = "<group>"; };
+		C812714120331E1B0012810F /* UiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiView.swift; sourceTree = "<group>"; };
+		C812714420333A320012810F /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		C812714620333B410012810F /* RecipeStepsViewPagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStepsViewPagerController.swift; sourceTree = "<group>"; };
 		C8819EA420189431008E6235 /* TheBakingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBakingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8819EA720189431008E6235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8819EA920189431008E6235 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseUIViewController.swift; path = TheBakingApp/BaseUIViewController.swift; sourceTree = SOURCE_ROOT; };
 		C8819EAC20189431008E6235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C8819EAE20189431008E6235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8819EB120189431008E6235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8819EB320189431008E6235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8B322AF20194A5F000652E6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -64,6 +82,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C81271302032ECBF0012810F /* StepList */ = {
+			isa = PBXGroup;
+			children = (
+				C81271352032F52A0012810F /* StepListViewController.swift */,
+				C812713C203303370012810F /* StepListPresenter.swift */,
+			);
+			path = StepList;
+			sourceTree = "<group>";
+		};
+		C81271392032FEF90012810F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C812713A2032FF0B0012810F /* StringHelper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C812713E20330DB90012810F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C812713F20330DD40012810F /* RecipeStepTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C812714320333A1D0012810F /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C812714420333A320012810F /* VideoPlayerViewController.swift */,
+				C812714620333B410012810F /* RecipeStepsViewPagerController.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
 		C8819E9B20189431008E6235 = {
 			isa = PBXGroup;
 			children = (
@@ -86,15 +138,17 @@
 		C8819EA620189431008E6235 /* TheBakingApp */ = {
 			isa = PBXGroup;
 			children = (
+				C812713E20330DB90012810F /* Cell */,
+				C81271392032FEF90012810F /* Util */,
+				C8CC7FF420326C8300734DA7 /* Presentation */,
 				C8B322C6201AA0B7000652E6 /* Data */,
 				C8B322C2201A3CF3000652E6 /* Model */,
-				C8B322B22019E89B000652E6 /* Base */,
-				C8B322B120195773000652E6 /* RecipeList */,
 				C8819EA720189431008E6235 /* AppDelegate.swift */,
+				C81271372032FA300012810F /* Asset.xcassets */,
 				C8819EAB20189431008E6235 /* Main.storyboard */,
-				C8819EAE20189431008E6235 /* Assets.xcassets */,
 				C8819EB020189431008E6235 /* LaunchScreen.storyboard */,
 				C8819EB320189431008E6235 /* Info.plist */,
+				C812714120331E1B0012810F /* UiView.swift */,
 			);
 			path = TheBakingApp;
 			sourceTree = "<group>";
@@ -129,10 +183,23 @@
 		C8B322C6201AA0B7000652E6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				C81271332032EFD40012810F /* LocalStorage.swift */,
 				C8B322CB201AC4FE000652E6 /* ApiCalls.swift */,
 				C8B322C9201AA193000652E6 /* ApiEndPoints.swift */,
+				C81271312032EEA90012810F /* Constants.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		C8CC7FF420326C8300734DA7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C812714320333A1D0012810F /* VideoPlayer */,
+				C81271302032ECBF0012810F /* StepList */,
+				C8B322B22019E89B000652E6 /* Base */,
+				C8B322B120195773000652E6 /* RecipeList */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		EA28003D11A9B7D5E6301BE4 /* Pods */ = {
@@ -206,8 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81271382032FA300012810F /* Asset.xcassets in Resources */,
 				C8819EB220189431008E6235 /* LaunchScreen.storyboard in Resources */,
-				C8819EAF20189431008E6235 /* Assets.xcassets in Resources */,
 				C8819EAD20189431008E6235 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,12 +307,16 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/EVReflection/EVReflection.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PodAsset/PodAsset.framework",
+				"${BUILT_PRODUCTS_DIR}/SHViewPager/SHViewPager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EVReflection.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PodAsset.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHViewPager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -278,15 +349,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8B322BD201A19A1000652E6 /* RecipeListPresenter.swift in Sources */,
+				C81271322032EEA90012810F /* Constants.swift in Sources */,
 				C8819EAA20189431008E6235 /* BaseUIViewController.swift in Sources */,
+				C812714520333A320012810F /* VideoPlayerViewController.swift in Sources */,
+				C81271362032F52A0012810F /* StepListViewController.swift in Sources */,
+				C812713B2032FF0B0012810F /* StringHelper.swift in Sources */,
 				C8B322CC201AC4FE000652E6 /* ApiCalls.swift in Sources */,
+				C812714720333B410012810F /* RecipeStepsViewPagerController.swift in Sources */,
 				C8B322B42019EBEE000652E6 /* BaseContract.swift in Sources */,
 				C8B322B62019EE8B000652E6 /* BaseUIViewController+BaseView.swift in Sources */,
+				C812714220331E1C0012810F /* UiView.swift in Sources */,
 				C8819EA820189431008E6235 /* AppDelegate.swift in Sources */,
 				C8B322BB201A0EC6000652E6 /* RecipeListViewController.swift in Sources */,
 				C8B322B020194A5F000652E6 /* Podfile in Sources */,
+				C81271342032EFD50012810F /* LocalStorage.swift in Sources */,
+				C812713D203303370012810F /* StepListPresenter.swift in Sources */,
 				C8B322C4201A3D02000652E6 /* RecipeResponse.swift in Sources */,
 				C8B322CA201AA193000652E6 /* ApiEndPoints.swift in Sources */,
+				C812714020330DD40012810F /* RecipeStepTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44WM7BTB59;
 				INFOPLIST_FILE = TheBakingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codedentwickler.TheBakingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44WM7BTB59;
 				INFOPLIST_FILE = TheBakingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codedentwickler.TheBakingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
