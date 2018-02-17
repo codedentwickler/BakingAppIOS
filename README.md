@@ -1,7 +1,7 @@
 # BakingAppIOS
 
 
-A Functioning IOS equivalent App of this BakingApp Android
+A Functioning IOS equivalent App of this [BakingApp](https://github.com/codedentwickler/BakingApp) Android
 
 Feature
 This app used the MVP architechture
