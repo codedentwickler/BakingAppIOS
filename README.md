@@ -1,6 +1,6 @@
 # BakingApp iOS
 
-A Functioning IOS equivalent App of this [BakingApp](https://github.com/codedentwickler/BakingApp) Android
+An iOS equivalent App of my Udacity [BakingApp](https://github.com/codedentwickler/BakingApp) Android Project
 
 Feature
 This app used the MVP architechture
