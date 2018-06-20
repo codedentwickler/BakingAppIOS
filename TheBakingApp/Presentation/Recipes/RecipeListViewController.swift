@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RecipeListViewController: BaseUIViewController, RecipeListView {
+class RecipeListViewController: BaseUIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -18,7 +18,7 @@ class RecipeListViewController: BaseUIViewController, RecipeListView {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setNormalTitle("Recipes")
+        setNormalTitle("Baking Recipes")
         
         self.tableView.dataSource = self
         self.tableView.delegate = self
@@ -27,6 +27,10 @@ class RecipeListViewController: BaseUIViewController, RecipeListView {
         recipePresenter = RecipeListPresenter(self)
         recipePresenter.loadRecipes()
     }
+}
+
+// Mark - RecipeListView
+extension RecipeListViewController : RecipeListView {
     
     func showRecipes(_ recipes: [Recipe]) {
         self.recipes = recipes

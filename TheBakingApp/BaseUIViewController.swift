@@ -16,12 +16,6 @@ class BaseUIViewController: UIViewController {
         self.navigationController?.navigationBar.tintColor = UIColor.white
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
- 
-    
     func instantiateViewController(withIdentifier id : String, from storyBoardName: String) -> UIViewController {
         // Get the Storyboard with id and Create View COntroller with parameter name -> storyBoardName
         let storyboard = UIStoryboard (name: storyBoardName, bundle: nil)

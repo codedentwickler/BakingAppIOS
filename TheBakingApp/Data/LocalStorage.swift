@@ -3,7 +3,7 @@
 //  FBNInsurance
 //
 //  Created by codedentwickler on 2/7/18.
-//  Copyright © 2018 Cotta & Cush. All rights reserved.
+//  Copyright © 2018 codedentwickler. All rights reserved.
 //
 
 import Foundation

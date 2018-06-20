@@ -41,12 +41,10 @@ class RecipeListPresenter: BasePresenter {
                 return
             }
             if let response = response {
-                
+                // Persist static recipes response when loaded first, no need to fetch same content every time
                 LocalStorage.shared.persistObject(object: response as NSObject, key: PersistenceIdentifiers.RECIPE_RESPONSE)
                 self.view?.showRecipes(response)
             }
         }
-
     }
-    
 }

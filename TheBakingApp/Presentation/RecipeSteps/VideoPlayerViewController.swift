@@ -26,7 +26,7 @@ class VideoPlayerViewController: UIViewController {
         playerRootView.superview?.layer.masksToBounds = true
         playerRootView.dropShadow()
         
-        if step.videoURL.count != 0 {
+        if !step.videoURL.isEmpty {
             let player = AVPlayer(url: URL(string: step.videoURL)!)
             let playerController = AVPlayerViewController()
             
@@ -39,7 +39,7 @@ class VideoPlayerViewController: UIViewController {
             player.play()
         } else {
             
-            //playerRootView.is,Hidden = true
+            playerRootView.isHidden = true
             playerRootView.removeFromSuperview()
             self.view.reloadInputViews()
         }

@@ -82,13 +82,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C81271302032ECBF0012810F /* StepList */ = {
+		C81271302032ECBF0012810F /* RecipeStepsList */ = {
 			isa = PBXGroup;
 			children = (
 				C81271352032F52A0012810F /* StepListViewController.swift */,
 				C812713C203303370012810F /* StepListPresenter.swift */,
 			);
-			path = StepList;
+			path = RecipeStepsList;
 			sourceTree = "<group>";
 		};
 		C81271392032FEF90012810F /* Util */ = {
@@ -107,13 +107,13 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		C812714320333A1D0012810F /* VideoPlayer */ = {
+		C812714320333A1D0012810F /* RecipeSteps */ = {
 			isa = PBXGroup;
 			children = (
 				C812714420333A320012810F /* VideoPlayerViewController.swift */,
 				C812714620333B410012810F /* RecipeStepsViewPagerController.swift */,
 			);
-			path = VideoPlayer;
+			path = RecipeSteps;
 			sourceTree = "<group>";
 		};
 		C8819E9B20189431008E6235 = {
@@ -138,6 +138,7 @@
 		C8819EA620189431008E6235 /* TheBakingApp */ = {
 			isa = PBXGroup;
 			children = (
+				C8DA5B3620DA5AA500F5A527 /* Extension */,
 				C812713E20330DB90012810F /* Cell */,
 				C81271392032FEF90012810F /* Util */,
 				C8CC7FF420326C8300734DA7 /* Presentation */,
@@ -148,18 +149,17 @@
 				C8819EAB20189431008E6235 /* Main.storyboard */,
 				C8819EB020189431008E6235 /* LaunchScreen.storyboard */,
 				C8819EB320189431008E6235 /* Info.plist */,
-				C812714120331E1B0012810F /* UiView.swift */,
 			);
 			path = TheBakingApp;
 			sourceTree = "<group>";
 		};
-		C8B322B120195773000652E6 /* RecipeList */ = {
+		C8B322B120195773000652E6 /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
 				C8B322BA201A0EC6000652E6 /* RecipeListViewController.swift */,
 				C8B322BC201A19A1000652E6 /* RecipeListPresenter.swift */,
 			);
-			path = RecipeList;
+			path = Recipes;
 			sourceTree = "<group>";
 		};
 		C8B322B22019E89B000652E6 /* Base */ = {
@@ -194,12 +194,20 @@
 		C8CC7FF420326C8300734DA7 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				C812714320333A1D0012810F /* VideoPlayer */,
-				C81271302032ECBF0012810F /* StepList */,
+				C812714320333A1D0012810F /* RecipeSteps */,
+				C81271302032ECBF0012810F /* RecipeStepsList */,
 				C8B322B22019E89B000652E6 /* Base */,
-				C8B322B120195773000652E6 /* RecipeList */,
+				C8B322B120195773000652E6 /* Recipes */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C8DA5B3620DA5AA500F5A527 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C812714120331E1B0012810F /* UiView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		EA28003D11A9B7D5E6301BE4 /* Pods */ = {

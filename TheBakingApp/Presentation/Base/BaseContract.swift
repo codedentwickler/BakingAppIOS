@@ -18,7 +18,6 @@ protocol BaseView: NSObjectProtocol {
     func showError(message text: String)
     
     func isNetworkConnected()
-    
 }
 
 protocol BasePresenter {

@@ -18,7 +18,9 @@ class StepListViewController: BaseUIViewController, RecipeStepsView {
     
     @IBOutlet weak var ingredientsLabelContainerView: UIView!
     @IBOutlet weak var ingredientListLabel: UILabel!
-    
+    @IBOutlet weak var ingredientsLabelHeight: NSLayoutConstraint!
+    @IBOutlet weak var ingredientsLabelContainerHeight: NSLayoutConstraint!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,7 +29,13 @@ class StepListViewController: BaseUIViewController, RecipeStepsView {
         tableView.delegate = self
         tableView.dataSource = self
         
-        ingredientsLabelContainerView.dropShadow()
+        let ingredientHeight = 24 * currentRecipe.ingredients.count
+        
+        ingredientsLabelHeight.constant = CGFloat(ingredientHeight)
+        ingredientsLabelHeight.isActive = true
+        
+        ingredientsLabelContainerHeight.constant = CGFloat(ingredientHeight + 8)
+        ingredientsLabelContainerHeight.isActive = true
         
         presenter = StepListPresenter(self)
         presenter.setUpView(recipe: currentRecipe)
