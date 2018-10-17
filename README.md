@@ -44,7 +44,7 @@ Run `git clone https://github.com/codedentwickler/BakingAppIOS.git`
 
 ![Video Player Screenshot](https://github.com/codedentwickler/BakingAppIOS/blob/master/screenshots/Screen%20Shot%202018-06-20%20at%209.50.16%20PM.png)
 
-![Video Player Screenshot 2](https://github.com/codedentwickler/BakingAppIOS/blob/master/screenshots/Screen%20Shot%202018-06-20%20at%209.50.34%20PM.png)
+![Video Player Fullscreen Screenshot](https://github.com/codedentwickler/BakingAppIOS/blob/master/screenshots/Screen%20Shot%202018-06-20%20at%209.50.34%20PM.png)
 
 ![Video Player Landscape Screenshot](https://github.com/codedentwickler/BakingAppIOS/blob/master/screenshots/Screen%20Shot%202018-06-20%20at%209.50.46%20PM.png)
 
@@ -64,7 +64,7 @@ Also few tests have been written, and hopefully we can have more from your contr
 
 MIT License
 
-Copyright (c) [2017] [Kanyinsola Fapohunda Oyindamola]
+Copyright (c) [2018] [Kanyinsola Fapohunda Oyindamola]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
