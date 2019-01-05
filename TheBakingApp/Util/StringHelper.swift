@@ -11,7 +11,9 @@ import UIKit
 
 class StringHelper {
     
-    static func createBulletedList(fromStringArray strings: [String], font: UIFont? = nil) -> NSAttributedString {
+    static func createBulletedList(withBullets: Bool = true,
+                                   fromStringArray strings: [String],
+                                   font: UIFont? = UIFont.systemFont(ofSize: 13)) -> NSAttributedString {
         
         let fullAttributedString = NSMutableAttributedString()
         let attributesDictionary: [NSAttributedStringKey: Any]
@@ -23,8 +25,8 @@ class StringHelper {
         }
         
         for index in 0..<strings.count {
-            let bulletPoint: String = "\u{2022}"
-            var formattedString: String = "\(bulletPoint) \(strings[index])"
+            let bulletPoint: String = withBullets ? "\u{2022}" : "\t"
+            var formattedString: String = "\(bulletPoint) \(strings[index].capitalized)"
             
             if index < strings.count - 1 {
                 formattedString = "\(formattedString)\n"
