@@ -10,10 +10,10 @@ Show a Card containing the ingredients of the recipe
 
 
 <p align="center">
-<img src="img/img1.png" width="350"/>
-<img src="img/img2.png" width="350"/>
-<img src="img/img3.png" width="350"/>
-<img src="img/img4.png" width="350"/>
+<img src="screenshots/img1.png" width="350"/>
+<img src="screenshots/img2.png" width="350"/>
+<img src="screenshots/img3.png" width="350"/>
+  <img src="screenshots/img4.png" width="710"/>
 </p>
 
 ## Requirements
