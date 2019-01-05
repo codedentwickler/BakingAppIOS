@@ -1,19 +1,15 @@
 # BakingApp iOS
 
-An iOS equivalent App of my Udacity [BakingApp](https://github.com/codedentwickler/BakingApp) Android Project
+An iOS equivalent App of my [BakingApp](https://github.com/codedentwickler/BakingApp) Android Project
 
-Feature
-This app used the MVP architechture
-Show a list of recipes
-Show a list of steps involved and a video icon if the step has a video
-Show a Card containing the ingredients of the recipe
-
+This app uses the MVP architecture for iOS.
+Shows a list of baking recipes and include video explaining the steps involved in baking the recipes.
 
 <p align="center">
 <img src="screenshots/img1.png" width="350"/>
 <img src="screenshots/img2.png" width="350"/>
 <img src="screenshots/img3.png" width="350"/>
-  <img src="screenshots/img4.png" width="710"/>
+<img src="screenshots/img4.png" width="710"/>
 </p>
 
 ## Requirements
@@ -49,8 +45,6 @@ Run `git clone https://github.com/codedentwickler/BakingAppIOS.git`
 ### Contributors on GitHub
 Please feel free to make a pull request. There is so much to improve on.
 
-Also few tests have been written, and hopefully we can have more from your contribution so to fix those hidden bugs and ensure the project is safe to use for learning
-
 #### Developer
 * e-mail : kanyinsolafapohunda@gmail.com
 * Twitter: [@kanyinsola_f](https://twitter.com/kanyinsola_f "kanyinsola_f on twitter")
@@ -59,7 +53,6 @@ Also few tests have been written, and hopefully we can have more from your contr
 ##### LICENSE
 
 ```
-
 MIT License
 
 Copyright (c) [2018] [Kanyinsola Fapohunda Oyindamola]
