@@ -15,7 +15,7 @@ Shows a list of baking recipes and include video explaining the steps involved i
 ## Requirements
 
 - iOS 9.0+
-- Install the latest version of xCode.
+- Install the latest version of Xcode.
 - Swift version 4 was the last version of Swift used.
 
 ### Getting Started ###
