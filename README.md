@@ -8,6 +8,14 @@ Show a list of recipes
 Show a list of steps involved and a video icon if the step has a video
 Show a Card containing the ingredients of the recipe
 
+
+<p align="center">
+<img src="img/img1.png" width="350"/>
+<img src="img/img2.png" width="350"/>
+<img src="img/img3.png" width="350"/>
+<img src="img/img4.png" width="350"/>
+</p>
+
 ## Requirements
 
 - iOS 9.0+
@@ -37,16 +45,6 @@ Run `git clone https://github.com/codedentwickler/BakingAppIOS.git`
 - [MBProgressHUD](https://github.com/jdg/MBProgressHUD): It is an iOS drop-in class that displays a translucent HUD with an indicator and/or labels while work is being done in a background thread.
 
 - [SHViewPager](https://github.com/shabib87/SHViewPager): A simple view pager for iOS. Compatible with iOS 8.0 or later.
-
-![List Of Recipes Screenshots](https://github.com/codedentwickler/BakingAppIOS/blob/master/screenshots/Screen%20Shot%202018-06-20%20at%2010.52.51%20AM.png)
-
-![Recipe Ingredients Steps Screenshot](https://github.com/codedentwickler/BakingAppIOS/blob/master/screenshots/Screen%20Shot%202018-06-20%20at%2010.53.05%20AM.png)
-
-![Video Player Screenshot](https://github.com/codedentwickler/BakingAppIOS/blob/master/screenshots/Screen%20Shot%202018-06-20%20at%209.50.16%20PM.png)
-
-![Video Player Fullscreen Screenshot](https://github.com/codedentwickler/BakingAppIOS/blob/master/screenshots/Screen%20Shot%202018-06-20%20at%209.50.34%20PM.png)
-
-![Video Player Landscape Screenshot](https://github.com/codedentwickler/BakingAppIOS/blob/master/screenshots/Screen%20Shot%202018-06-20%20at%209.50.46%20PM.png)
 
 ### Contributors on GitHub
 Please feel free to make a pull request. There is so much to improve on.
